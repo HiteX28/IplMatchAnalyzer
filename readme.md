@@ -1,260 +1,218 @@
 # 🏏 IPL Match Analyzer
 
-## 📌 Project Overview
-
-IPL Match Analyzer is a Python-based data analysis project that analyzes Indian Premier League (IPL) match data and provides meaningful insights using Pandas and Python programming.
-
-The project follows a menu-driven approach where users can explore different aspects of IPL data such as team performance, player statistics, season trends, venue analysis, and head-to-head comparisons.
-
-The main objective of this project is to apply real-world data analysis concepts using Python, Object-Oriented Programming (OOP), and Pandas.
+A Python-based command-line application that analyzes IPL match data using **Pandas**. It provides detailed insights into teams, players, venues, seasons, and head-to-head records through a simple menu-driven interface.
 
 ---
 
-# ✨ Features
+## 📌 Features
 
-## 1. Dataset Information
-
-Provides basic information about the IPL dataset:
-
-- Total number of matches
-- Number of rows and columns
-- Dataset structure
-- Available attributes
-- Basic dataset overview
-
----
-
-## 2. Team Analysis
-
-Provides detailed analysis of IPL teams:
-
-- Total number of IPL teams
-- List of all teams
-- Teams playing in the latest season
-- Matches played by each team
-- Matches won by each team
-- Winning percentage calculation
-- Most successful IPL team
+- 📊 Display Dataset Information
+- 🏏 Team Analysis
+- 📅 Season-wise Analysis
+- 🏟️ Venue Analysis
+- 👤 Player Analysis
+- 🤝 Head-to-Head Analysis
+- ⏱️ Execution Time Logging using Python Decorators
+- 💻 User-Friendly Menu-Driven Interface
 
 ---
 
-## 3. Season Analysis
+## 🛠️ Tech Stack
 
-Analyzes IPL seasons and provides season-wise insights:
-
-- Total matches played in each season
-- Season-wise performance analysis
-- Comparison between different IPL seasons
-- Season statistics
+- **Language:** Python
+- **Libraries:** Pandas, NumPy
+- **IDE:** Visual Studio Code
+- **Version Control:** Git & GitHub
 
 ---
 
-## 4. Venue Analysis
+## 📂 Project Structure
 
-Provides stadium and venue-based analysis:
-
-- Total venues used in IPL
-- Most frequently used venues
-- Number of matches hosted at each venue
-- Venue performance analysis
-
----
-
-## 5. Player Analysis
-
-Analyzes player participation and achievements:
-
-- Total players participated in IPL
-- List of all players
-- Most matches played by players
-- Player of the Match award analysis
-- Player participation statistics
-
----
-
-## 6. Head-to-Head Analysis
-
-Provides comparison between two IPL teams:
-
-- Total matches played between teams
-- Matches won by each team
-- Head-to-head record
-- Team comparison statistics
-
----
-
-# 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Object-Oriented Programming (OOP)
-- Data Cleaning Techniques
-- Data Analysis
-- Decorators
-- CSV File Handling
-
----
-
-# 📂 Project Structure
-IPL-Match-Analyzer/
-
+```
+IplMatchAnalyzer/
+│
+├── data/
+│   └── matches.csv
+│
+├── screenshots/
+│   ├── menu.png
+│   ├── dataset_info.png
+│   ├── team_analysis.png
+│   ├── season_analysis.png
+│   ├── venue_analysis.png
+│   ├── player_analysis.png
+│   └── head_to_head.png
 │
 ├── analyzer.py
-│ Main Python program containing classes,
-│ functions, and analysis modules
-│
-├── ipl_dataset.csv
-│ IPL match dataset
-│
+├── decorators.py
+├── main.py
+├── requirements.txt
 ├── README.md
-│ Project documentation
-│
-└── requirements.txt
-Required Python libraries
-
+└── .gitignore
+```
 
 ---
 
-# ⚙️ Installation & Setup
+## 🚀 Installation
 
-## Clone the Repository
+### Clone the repository
 
+```bash
+git clone https://github.com/HiteX28/IplMatchAnalyzer.git
+```
 
-git clone <repository-url>
+### Go to the project directory
 
+```bash
+cd IplMatchAnalyzer
+```
 
-## Navigate to Project Folder
+### Install the required libraries
 
-
-cd IPL-Match-Analyzer
-
-
-## Install Required Libraries
-
-
+```bash
 pip install -r requirements.txt
+```
 
+### Run the application
 
----
-
-# ▶️ How to Run
-
-Run the Python file:
-
-
-python analyzer.py
-
-
-After running the program, select options from the interactive menu to analyze IPL match data.
+```bash
+python main.py
+```
 
 ---
 
-# 📋 Application Menu
+## 📋 Main Menu
 
+```
 ==================================================
-IPL MATCH ANALYZER
-Dataset Information
-Team Analysis
-Season Analysis
-Venue Analysis
-Player Analysis
-Head-to-Head Analysis
-Exit
+          IPL MATCH ANALYZER
+==================================================
+
+1. Dataset Information
+2. Team Analysis
+3. Season Analysis
+4. Venue Analysis
+5. Player Analysis
+6. Head-to-Head Analysis
+7. Exit
+```
 
 ---
 
-# 🧠 Concepts Implemented
+# 📸 Screenshots
 
-## Python Concepts
+## 🏠 Main Menu
 
-- Classes and Objects
-- Constructors
-- Functions
-- Loops
-- Conditional Statements
-- Exception Handling
-- Decorators
-
-
-## Pandas Concepts
-
-- Reading CSV files
-- DataFrame and Series
-- Data Filtering
-- GroupBy operations
-- Value Counts
-- Data Concatenation
-- Sorting Data
-- Data Cleaning
-- String Operations
-- Aggregation Functions
+![Main Menu](screenshots/menu.png)
 
 ---
 
-# ⏱️ Performance Monitoring
+## 📊 Dataset Information
 
-A custom decorator is implemented to measure the execution time of analysis functions.
-
-Example:
-
-
-Analysis Started
-
-TEAM ANALYSIS Running...
-
-Analysis Completed
-
-Time Taken: 0.02 seconds
-
-
-This helps monitor and improve the performance of different analysis modules.
+![Dataset Information](screenshots/dataset_info.png)
 
 ---
 
-# 📊 Sample Output
+## 🏏 Team Analysis
 
-
-TEAM ANALYSIS
-
-Total Number of Teams: 20
-
-Most Successful Teams:
-
-Mumbai Indians 155 Wins
-Chennai Super Kings 148 Wins
-Kolkata Knight Riders 140 Wins
-
+![Team Analysis](screenshots/team_analysis.png)
 
 ---
 
-# 🚀 Future Enhancements
+## 📅 Season Analysis
 
-- Add top run scorers analysis
-- Add top wicket takers analysis
-- Add strike rate analysis
-- Add bowling economy analysis
-- Add data visualization using Matplotlib
-- Add machine learning based match prediction
-- Create interactive dashboard using Streamlit
-- Deploy as a web application
+![Season Analysis](screenshots/season_analysis.png)
 
 ---
 
-# 👨‍💻 Author
+## 🏟️ Venue Analysis
+
+![Venue Analysis](screenshots/venue_analysis.png)
+
+---
+
+## 👤 Player Analysis
+
+![Player Analysis](screenshots/player_analysis.png)
+
+---
+
+## 🤝 Head-to-Head Analysis
+
+![Head to Head](screenshots/head_to_head.png)
+
+---
+
+## 📊 Analysis Included
+
+### 📌 Dataset Information
+- Total Matches
+- Total Seasons
+- Teams Participated
+- Number of Venues
+- Missing Values
+
+### 🏏 Team Analysis
+- Total Wins
+- Matches Played
+- Win Percentage
+- Toss Statistics
+
+### 📅 Season Analysis
+- Matches Played Per Season
+- Season Winners
+- Seasonal Statistics
+
+### 🏟️ Venue Analysis
+- Matches Played at Each Venue
+- Most Successful Teams
+- Venue-wise Records
+
+### 👤 Player Analysis
+- Player of the Match Awards
+- Top Performing Players
+- Player Statistics
+
+### 🤝 Head-to-Head Analysis
+- Total Matches Between Two Teams
+- Wins by Team 1
+- Wins by Team 2
+- No Result Matches
+
+---
+
+## 📈 Future Enhancements
+
+- 📊 Interactive Graphs using Matplotlib
+- 🌐 Streamlit Web Application
+- 🤖 Match Winner Prediction using Machine Learning
+- 📉 Team Performance Dashboard
+- ☁️ Cloud Deployment
+
+---
+
+## 📦 Requirements
+
+```
+pandas
+numpy
+```
+
+---
+
+## 👨‍💻 Author
 
 **Hitesh Mahajan**
 
-Computer Science Student
-
-Skills:
-- Python
-- Data Analysis
-- Machine Learning
-- Web Development
+- GitHub: https://github.com/HiteX28
+- Repository: https://github.com/HiteX28/IplMatchAnalyzer
 
 ---
 
-# 📜 License
+## ⭐ Support
 
-This project is developed for educational and learning purposes.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It motivates me to build more Python and Data Analysis projects.
+
+---
