@@ -103,15 +103,10 @@ python main.py
 
 ## 🏠 Main Menu
 
-![Main Menu](screenshots/menu.png)
+![Main Menu](screenshots/Menu.png)
 
 ---
 
-## 📊 Dataset Information
-
-![Dataset Information](screenshots/dataset_info.png)
-
----
 
 ## 🏏 Team Analysis
 
@@ -139,7 +134,7 @@ python main.py
 
 ## 🤝 Head-to-Head Analysis
 
-![Head to Head](screenshots/head_to_head.png)
+![Head to Head](screenshots/head_head.png)
 
 ---
 
